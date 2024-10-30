@@ -1,0 +1,22 @@
+/* src/pages/NotFoundPage.css */
+.not-found-page {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
+  padding: 20px;
+  text-align: center;
+  color: #333; 
+}
+
+.not-found-page h2 {
+  font-size: 2em; 
+  margin-bottom: 10px; 
+}
+
+.not-found-page p {
+  font-size: 1.2em; 
+}
+
+  

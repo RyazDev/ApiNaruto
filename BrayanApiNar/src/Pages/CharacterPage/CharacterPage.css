@@ -1,0 +1,96 @@
+.character-page {
+  padding: 30px;
+  text-align: center;
+  background-color: #ffffff; 
+  border: 2px solid #d3d3d3; 
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  max-width: 800px;
+  color: #333;
+}
+
+.character-page h2 {
+    font-size: 2rem;
+    margin: -10px 0 20px; 
+    font-family: 'Ninja Naruto', sans-serif; 
+    color: #ff9900;
+    letter-spacing: 0.1rem; 
+    word-spacing: 0.2rem; 
+}
+
+.carousel .slider-wrapper, 
+.carousel .slider {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.carousel .slide img {
+  max-width: 100%;
+  border-radius: 15px;
+  border: 2px solid #d3d3d3;
+}
+
+.character-info {
+  margin-top: 25px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  color: #2f4858;
+  padding: 0 20px; 
+}
+
+.character-info p {
+  margin: 8px 0;
+  font-size: 1.15em;
+  line-height: 1.5;
+}
+
+.character-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.character-info ul li {
+  margin: 6px 0;
+  font-size: 1.05em;
+  padding-left: 15px;
+  position: relative;
+}
+
+.character-info ul li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #4ca1af;
+  font-size: 1.2em;
+}
+
+.favorite-btn {
+  margin-top: 25px;
+  padding: 12px 25px;
+  background-color: #f7c32e;
+  border: 2px solid #a88734;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  color: #333;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.favorite-btn:hover {
+  background-color: #ddb347;
+  transform: scale(1.05);
+}
+
+.favorite-btn.favorited {
+  background-color: #e71d1d;
+  color: white;
+  border-color: #a32424;
+}
+
+.favorite-btn.favorited:hover {
+  background-color: #bf1a1a;
+}
+
+
